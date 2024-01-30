@@ -1,4 +1,4 @@
-# colors
+s# colors
 red="\033[0;49;91m"
 green="\033[0;49;92m"
 yellow="\033[0;49;93m"
@@ -61,7 +61,7 @@ do
 		mv "mtlib.sh" "/data/data/com.termux/files/home"
 		chmod +x *
 		sleep 1
-		mv "nextpower1" "/data/data/com.termux/files/bin"
+		mv "nextpower1" "/data/data/com.termux/files/usr/bin"
 		mv "neofetch" "/data/data/com.termux/files/usr/bin"
 		mv "banner.txt" "/data/data/com.termux/files/home"
 		mv "shmenu" "/data/data/com.termux/files/usr/bin"
