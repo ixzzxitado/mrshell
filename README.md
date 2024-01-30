@@ -4,10 +4,15 @@
 IM NOT RESPONDING FOR YOUR ACTIONS, IF YOU USE THIS TOOL FOR CRIMINAL PURPOSES IT IS YOUR RESPONSIBILITY!
 
 # Some Tools Credits
+
 sqlmapproject
+
 sherlock-project
+
 rk1342k - Hammer
+
 Manisso - fsociety
+
 htr-tech - zphisher
 
 # Installation ( Just Work On Termux )
