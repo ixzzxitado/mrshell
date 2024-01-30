@@ -1,0 +1,4 @@
+#!bin/bash
+green="\033[0;49;92m"
+echo -e $green "use shmenu to show mr.shell options\033[m"
+

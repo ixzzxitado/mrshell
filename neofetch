@@ -1,0 +1,3 @@
+#!bin/bash
+red="\033[1;49;91m"
+echo -e $red ""
