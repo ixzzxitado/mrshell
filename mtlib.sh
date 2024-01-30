@@ -175,6 +175,6 @@ killwf(){
 }
 
 checkn(){
-	cd "/data/data/com.termux/files/home" ; python checknumber.py
+	cd "/data/data/com.termux/files/home" ; python numberchecker.py
 	
 }
