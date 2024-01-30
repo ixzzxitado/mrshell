@@ -38,7 +38,7 @@ math(){
 ham(){ 
 	if [ ! -d "/data/data/com.termux/files/home/Hammer" ]
 	then
-		read -d "Hammer not installed, want install?(y/n)" resp
+		read -p "Hammer not installed, want install?(y/n)" resp
 		if [ "$resp" == "y" ]
 		then
 			echo -e $dblue "installing..."
@@ -61,7 +61,7 @@ ham(){
 sql(){
         if [ ! -d "/data/data/com.termux/files/home/sqlmap" ]
         then
-                read -d "Sqlmap not installed, want install?(y/n)" resp
+                read -p "Sqlmap not installed, want install?(y/n)" resp
                 if [ "$resp" == "y" ]
                 then
                         echo -e $dblue "installing..."
@@ -78,9 +78,9 @@ sql(){
 
 }
 search(){
-        if [ ! -d "/data/data/com.termux/files/home/sherlock" ]
+        if [ ! -p "/data/data/com.termux/files/home/sherlock" ]
         then
-                read -d "Sherlock not installed, want install?(y/n)" resp
+                read -p "Sherlock not installed, want install?(y/n)" resp
                 if [ "$resp" == "y" ]
                 then
                         echo -e $dblue "installing..."
@@ -100,7 +100,7 @@ search(){
 psh(){
 	if [ ! -d "/data/data/com.termux/files/home/zphisher" ]
 	then
-		read -d "Zphisher not installed, want install?(y/n)" resp
+		read -p "Zphisher not installed, want install?(y/n)" resp
 		if [ "$resp" == "y" ]
 		then
 			echo -e $dblue "installing..."
@@ -121,7 +121,7 @@ psh(){
 fsoc(){
         if [ ! -d "/data/data/com.termux/files/home/fsociety" ]
         then
-                read -d "Fsociety not installed, want install?(y/n)" resp
+                read -p "Fsociety not installed, want install?(y/n)" resp
                 if [ "$resp" == "y" ]
                 then
                         echo -e $dblue "installing..."
