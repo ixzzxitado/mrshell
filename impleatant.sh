@@ -1,4 +1,4 @@
-s# colors
+# colors
 red="\033[0;49;91m"
 green="\033[0;49;92m"
 yellow="\033[0;49;93m"
@@ -65,6 +65,7 @@ do
 		mv "neofetch" "/data/data/com.termux/files/usr/bin"
 		mv "banner.txt" "/data/data/com.termux/files/home"
 		mv "shmenu" "/data/data/com.termux/files/usr/bin"
+		mv "anticracker" "/data/data/com.termux/files/home"
 		echo -e "clear ; neofetch ; cat banner.txt ; nextpower1\n" >> "/data/data/com.termux/files/usr/etc/bash.bashrc"
 		mv "numberchecker.py" "/data/data/com.termux/files/home"
 		echo -e $green ">>>mtlib moved! please restart your termux!"
