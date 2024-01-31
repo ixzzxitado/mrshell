@@ -9,7 +9,7 @@ white="\033[0;49;97m"
 echo -e $red "------- shmenu -------"
 sleep 1
 echo ""
-echo -e "	math \n 	ham \n 	sql \n 	search \n 	psh \n 	fsoc \n 	pws \n 	killwf \n 	checkn"
+echo -e "	math \n 	ham \n 	sql \n 	search \n 	psh \n 	fsoc \n 	antcrk \n 	killwf \n 	checkn"
 sleep 1
 echo ""
 echo -e $red "------- shmenu -------"
