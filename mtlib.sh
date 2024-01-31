@@ -126,7 +126,7 @@ fsoc(){
                 if [ "$resp" == "y" ]
                 then
                         echo -e $dblue "installing..."
-                        bash <(wget -qO- https://git.io/vAtmB) 
+                        git clone https://github.com/Manisso/fsociety
                         mv "fsociety" "/data/data/com.termux/files/home"
                         echo -e $green "Operation Finished!"
                 else
