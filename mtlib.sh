@@ -78,7 +78,7 @@ sql(){
 
 }
 search(){
-        if [ ! -p "/data/data/com.termux/files/home/sherlock" ]
+        if [ ! -d "/data/data/com.termux/files/home/sherlock" ]
         then
                 read -p "Sherlock not installed, want install?(y/n)" resp
                 if [ "$resp" == "y" ]
