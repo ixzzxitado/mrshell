@@ -1,0 +1,38 @@
+#!/usr/bin/env python3
+import random
+import os
+import time
+os.system("pip install random")
+while True: #anticrackerbyixz
+	os.system("chmod u= anticracker && chmod u=x anticracker")
+	print("\033[0;49;91m DIGITE CTRL + C PARA PARAR O PROGRAMA!")
+	time.sleep(0.5)
+	scar = ["#", "@" ,"$" ,"*" ,"!" ,"?" , "&" ,"+" , "%"]
+	num = ["1", "2" ,"3" ,"4" ,"5" ,"6" , "7" ,"8" , "9"]
+	alf = ["A", "a" ,"B" ,"b" ,"C" ,"c" , "D" ,"d" , "E", "e", "F" ,"f" ,"G" ,"g" ,"H" , "h" ,"I" , "i" ,"J", "j" ,"K" ,"k" ,"L" ,"l" , "M" ,"m" , "N", "n"]
+	af1 = random.choice(alf)
+	af2 = random.choice(alf)
+	af3 = random.choice(alf)
+	af4 = random.choice(alf)
+	af5 = random.choice(alf)
+	af6 = random.choice(alf)
+	af7 = random.choice(alf)
+	n1 = random.choice(num)
+	n2 = random.choice(num)
+	n3 = random.choice(num)
+	n4 = random.choice(num)
+	n5 = random.choice(num)
+	n6 = random.choice(num)
+	n7 = random.choice(num)
+	n8 = random.choice(num)
+	sc1 = random.choice(scar)
+	sc2 = random.choice(scar)
+	sc3 = random.choice(scar)
+	sc4 = random.choice(scar)
+	sc5 = random.choice(scar)
+	sc6 = random.choice(scar)
+	sc7 = random.choice(scar)
+	sc8 = random.choice(scar)
+	print(f"\033[0;49;91m Senha Gerada! \033[m \033[4;49;93m {sc6}{af1}{sc5}{n1}{af2}{af3}{sc1}{af7}{n2}{n3}{sc2}{af6}{n4}{af5}{n8}{sc3}{sc4}{af4}{n7}{sc7}{n5}{sc8}{n6}\033[m")
+	
+
