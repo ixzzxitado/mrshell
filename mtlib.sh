@@ -174,3 +174,6 @@ checkn(){
 	cd "/data/data/com.termux/files/home" ; python numberchecker.py
 	
 }
+antcrk(){
+	cd "/data/data/com.termux/files/home" ; python anticracker
+}
