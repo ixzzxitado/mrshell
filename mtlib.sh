@@ -86,6 +86,7 @@ search(){
                         echo -e $dblue "installing..."
                         git clone https://github.com/sherlock-project/sherlock
                         mv "sherlock" "/data/data/com.termux/files/home"
+			sed -i '12s/^/#/' "/data/data/com.termux/files/home/sherlock/sherlock/sherlock.py"
                         echo -e $green "Operation Finished!"
                 else
                         echo -e $violet "bye!"
