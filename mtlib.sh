@@ -145,26 +145,22 @@ killwf(){
 	echo -e "\033[7;49;91m [ ! ] \033[m \033[4;49;93m That will just crate an list with the possible combinations!\033[m"
 	case "$1" in
 		-p | --phonenumber)
-			numbph=$(seq 111111111 1 999999999)
-			echo "$numbph" >> "$2.txt" &
+			seq 111111111 1 999999999 >> "$2.txt" &
 			echo -e $violet "Use > jobs < to see process in background!"
 			
 		;;
 		-n | --minimum)
-			numbmin=$(seq 10000000 1 99999999)
-			echo "$numbmin" >> "$2.txt"
+			seq 10000000 1 99999999 >> "$2.txt"
 			echo -e $violet "Use > jobs < to see process in background!"
 		;;
 		-m | --max)
-			numbmax=$(seq 1000000000000000000000000000000000000000000000000000000000000000 1111 9999999999999999999999999999999999999999999999999999999999999999)
 			sleep 1
-			echo "$numbmax" >> "$2.txt" &
+			seq 1000000000000000000000000000000000000000000000000000000000000000 1111 9999999999999999999999999999999999999999999999999999999999999999) >> "$2.txt" &
 			sleep 1
 			echo -e $violet "Use > jobs < to see process in background!"
 		;;
 		-b | --birthday)
-			var=$(seq 1011300 1 30122024)
-			echo $var >> "$2.txt" &
+			var=$(seq 1011300 1 30122024) >> "$2.txt" &
 			echo -e $violet "Use > jobs < to see the process in background!"
 		;;
 		*)
