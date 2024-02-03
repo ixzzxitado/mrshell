@@ -170,6 +170,7 @@ killwf(){
 				var=$(echo "$day$mounth$year")
 				echo "$var" >> "$3.txt"
 				request_limit=$((request_limit+1))
+    				echo -e $yellow "Senha $request_limit Gerada"
 			done
 			echo -e $red "MAXIMUM PASSWORDS REACHED!!!"
 			sleep 1
