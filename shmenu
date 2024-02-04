@@ -1,0 +1,15 @@
+red="\033[0;49;91m"
+green="\033[0;49;92m"
+yellow="\033[0;49;93m"
+dblue="\033[0;49;94m"
+violet="\033[0;49;95m"
+blue="\033[0;49;96m"
+white="\033[0;49;97m"
+
+echo -e $red "------- shmenu -------"
+sleep 1
+echo ""
+echo -e "	math \n 	ham \n 	sql \n 	search \n 	psh \n 	fsoc \n 	antcrk \n 	killwf \n 	checkn \n 	bsms"
+sleep 1
+echo ""
+echo -e $red "------- shmenu -------"
