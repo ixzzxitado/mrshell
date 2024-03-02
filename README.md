@@ -21,7 +21,7 @@ htr-tech - zphisher
 
 2 - pkg update -y ; pkg upgrade -y
 
-3 - git clone https://github.com/ixzzxitado/mrshell
+3 - git clone https://github.com/z4kc/mrshell
 
 4 - bash inpleatant.sh
 
